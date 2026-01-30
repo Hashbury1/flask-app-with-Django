@@ -50,16 +50,7 @@ Option 2: Unified WSGI (If configured)
 If the project uses DispatcherMiddleware to combine the apps:Bashpython run_combined.py
 📁 Repository Structure
 
-Plaintextflask-app-with-Django/
-├── django_backend/       # Django project folder (Settings, URLs, WSGI)
-│   ├── app/              # Django app containing Models and Admin
-│   └── manage.py
-├── flask_frontend/      # Flask application folder
-│   ├── static/           # CSS, JS, Images
-│   ├── templates/        # HTML files
-│   └── app.py            # Flask entry point
-├── requirements.txt      # List of dependencies
-└── README.md
+
 🧪 TestingTo run tests for both frameworks:Bash# Django tests
 python manage.py test
 
